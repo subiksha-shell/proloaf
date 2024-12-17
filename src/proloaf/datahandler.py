@@ -306,7 +306,7 @@ def check_nans(df: pd.DataFrame) -> pd.DataFrame:
     return df
 
 
-def set_to_hours(df: pd.DataFrame, timecolumn="Time", freq="H") -> pd.DataFrame:
+def set_to_hours(df: pd.DataFrame, timecolumn="Time", freq="h") -> pd.DataFrame:
     """
     Sets the index of the DataFrame to 'Time' and the frequency to hours.
 

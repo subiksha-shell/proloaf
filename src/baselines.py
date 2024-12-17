@@ -574,5 +574,5 @@ if __name__ == "__main__":
     ALPHA = 1.96
     EXOG = True
     APPLY_EXISTING_MODEL = False
-    RESOLUTION = 'H'
+    RESOLUTION = 'h'
     main(infile=os.path.join(MAIN_PATH, PAR["data_path"]), target_id=PAR["target_id"])
